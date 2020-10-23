@@ -22,7 +22,7 @@ fi
 
 # copy over the files to their respective locations (overwrite automatically if files exist)
 
-sudo cp -f ALCPlugFix $BIN_PATH
+sudo cp -rf ALCPlugFix $BIN_PATH
 sudo cp -f hda-verb $BIN_PATH
 sudo cp -f good.win.ALCPlugFix.plist $DAEMON_PATH
 
